@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+    .topOverlay {
+      position: absolute;
+      display:inline-block;
+      z-index: 1;
+      background-color: gainsboro;
+      height: 30px;
+      width: 100%;
+      border-bottom: 1px solid gray;
+      padding:7px;
+      padding-bottom: 0px;
+    }
+  .topOverlay a, .topOverlay a:visited{
+    color: gray;
+    text-decoration: none;
+  }
+  .reload{
+  
+    width:30px;
+    float:right;
+    margin-right: 40px;  /* don't know why I need this... */
+  }
+  .title{
+    font-size: 1.3em;
+  }
+
+

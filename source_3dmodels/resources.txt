@@ -1,11 +1,8 @@
 https://stemkoski.github.io/AR-Examples/
 
-https://www.youtube.com/watch?v=mPiFPv9WzOw
-
-https://discoverthreejs.com/book/1-first-steps/7-load-models/#setup
-
 https://github.khronos.org/glTF-Validator/
 
-https://medium.com/@akashkuttappa/using-3d-models-with-ar-js-and-a-frame-84d462efe498
 
-https://blog.theodo.com/2018/09/build-first-ar-web-app-less-10mn/
+https://jeromeetienne.github.io/AR.js-docs/posts/post-XX-how-to-use-arjs-with-aframe.html
+
+https://github.com/jeromeetienne/AR.js/tree/master/aframe
