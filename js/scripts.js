@@ -7,7 +7,10 @@ var spots = {
             distance: "10m (57.91 million km)"
         },
         asset: "mercury/scene.gltf",
-        runfile: "sun.html"
+        runfile: "sun.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     1: {
         title: "Mercury",
@@ -21,7 +24,10 @@ var spots = {
             distance: "10m (50 million km)"
         },
         asset: "mercury/scene.gltf",
-        runfile: "mercury.html"
+        runfile: "mercury.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     2: {
         title: "Venus",
@@ -35,7 +41,10 @@ var spots = {
             distance: "10m (261 million kilometers)"
         },
         asset: "mercury/scene.gltf",
-        runfile: "venus.html"
+        runfile: "venus.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     3: {
         title: "Earth",
@@ -49,7 +58,10 @@ var spots = {
             distance: ""
         },
         asset: "earth/scene.gltf",
-        runfile: "earth.html"
+        runfile: "earth.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     4: {
         title: "Our Moon",
@@ -63,7 +75,10 @@ var spots = {
             distance: ""
         },
         asset: "moon/scene.gltf",
-        runfile: "moon.html"
+        runfile: "moon.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     5: {
         title: "Mars",
@@ -77,7 +92,10 @@ var spots = {
             distance: ""
         },
         asset: "mars/scene.gltf",
-        runfile: "mars.html"
+        runfile: "mars.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     6: {
         title: "Jupiter",
@@ -91,7 +109,10 @@ var spots = {
             distance: ""
         },
         asset: "jupiter/scene.gltf",
-        runfile: "jupiter.html"
+        runfile: "jupiter.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     7: {
         title: "Saturn",
@@ -105,7 +126,10 @@ var spots = {
             distance: ""
         },
         asset: "saturn/scene.gltf",
-        runfile: "saturn.html"
+        runfile: "saturn.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     8: {
         title: "Uranus",
@@ -119,7 +143,10 @@ var spots = {
             distance: ""
         },
         asset: "uranus/scene.gltf",
-        runfile: "uranus.html"
+        runfile: "uranus.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     9: {
         title: "Neptune",
@@ -133,7 +160,10 @@ var spots = {
             distance: ""
         },
         asset: "neptune/scene.gltf",
-        runfile: "neptune.html"
+        runfile: "neptune.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
     10: {
         title: "Pluto",
@@ -143,7 +173,10 @@ var spots = {
             distance: ""
         },
         asset: "pluto/scene.gltf",
-        runfile: "pluto.html"
+        runfile: "pluto.html",
+        rotation: "0 0 0",
+        scale: "1 1 1",
+        position: "0 0 0"
     },
 
 };
