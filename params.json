@@ -1,0 +1,183 @@
+{
+    "runMode": "test",
+    "a": {
+        "title": "The Sun",
+        "description": "This is the Sun.  It's Big.",
+        "next": {
+            "id": "b",
+            "distance": "10m (57.91 million km)"
+        },
+        "asset": "sun/scene.gltf",
+        "runfile": "sun.html",
+        "rotation": "90 0 0",
+        "scale": ".05 .05 .05",
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+    },
+    "b": {
+        "title": "Mercury",
+        "description": "Mercury is the smallest and innermost planet in the Solar System. Its orbital period around the Sun of 87.97 days is the shortest of all the planets in the Solar System.",
+        "previous": {
+            "id": "a",
+            "distance": "10m (57.91 million km)"
+        },
+        "next": {
+            "id": "c",
+            "distance": "10m (50 million km)"
+        },
+        "asset": "mercury/scene.gltf",
+        "runfile": "mercury.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "c": {
+        "title": "Venus",
+        "description": "Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has the longest rotation period (243 Earth days) of any planet in the Solar System and rotates in the opposite direction to most other planets (meaning the Sun rises in the west and sets in the east).",
+        "previous": {
+            "id": "b",
+            "distance": "10m (57.91 million km)"
+        },
+        "next": {
+            "id": "d",
+            "distance": "10m (261 million kilometers)"
+        },
+        "asset": "mercury/scene.gltf",
+        "runfile": "venus.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "d": {
+        "title": "Earth",
+        "description": "Home",
+        "previous": {
+            "id": "c",
+            "distance": ""
+        },
+        "next": {
+            "id": "e",
+            "distance": ""
+        },
+        "asset": "earth/scene.gltf",
+        "runfile": "earth.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "e": {
+        "title": "Our Moon",
+        "description": "",
+        "previous": {
+            "id": "d",
+            "distance": ""
+        },
+        "next": {
+            "id": "f",
+            "distance": ""
+        },
+        "asset": "moon/scene.gltf",
+        "runfile": "moon.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "f": {
+        "title": "Mars",
+        "description": "",
+        "previous": {
+            "id": "d",
+            "distance": ""
+        },
+        "next": {
+            "id": "g",
+            "distance": ""
+        },
+        "asset": "mars/scene.gltf",
+        "runfile": "mars.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "g": {
+        "title": "Jupiter",
+        "description": "",
+        "previous": {
+            "id": "f",
+            "distance": ""
+        },
+        "next": {
+            "id": "h",
+            "distance": ""
+        },
+        "asset": "jupiter/scene.gltf",
+        "runfile": "jupiter.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "h": {
+        "title": "Saturn",
+        "description": "",
+        "previous": {
+            "id": "g",
+            "distance": ""
+        },
+        "next": {
+            "id": "i",
+            "distance": ""
+        },
+        "asset": "saturn/scene.gltf",
+        "runfile": "saturn.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "i": {
+        "title": "Uranus",
+        "description": "",
+        "previous": {
+            "id": "h",
+            "distance": ""
+        },
+        "next": {
+            "id": "j",
+            "distance": ""
+        },
+        "asset": "uranus/scene.gltf",
+        "runfile": "uranus.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "j": {
+        "title": "Neptune",
+        "description": "",
+        "previous": {
+            "id": "i",
+            "distance": ""
+        },
+        "next": {
+            "id": "k",
+            "distance": ""
+        },
+        "asset": "neptune/scene.gltf",
+        "runfile": "neptune.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    },
+    "k": {
+        "title": "Pluto",
+        "description": "",
+        "previous": {
+            "id": "j",
+            "distance": ""
+        },
+        "asset": "pluto/scene.gltf",
+        "runfile": "pluto.html",
+        "rotation": "0 0 0",
+        "scale": "1 1 1",
+        "position": "0 0 0"
+    }
+}

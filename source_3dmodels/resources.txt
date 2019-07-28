@@ -1,8 +1,0 @@
-https://stemkoski.github.io/AR-Examples/
-
-https://github.khronos.org/glTF-Validator/
-
-
-https://jeromeetienne.github.io/AR.js-docs/posts/post-XX-how-to-use-arjs-with-aframe.html
-
-https://github.com/jeromeetienne/AR.js/tree/master/aframe
