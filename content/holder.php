@@ -1,5 +1,6 @@
 <?php
 
+
 $thisSpot = $_GET["spot"];
 if (!$thisSpot) {
     $thisSpot = "a";
@@ -7,8 +8,6 @@ if (!$thisSpot) {
 
 $spotData = json_decode(file_get_contents("../params.json"));
 $mySpot = $spotData->$thisSpot;
-
-$projectRoot = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 
 
 ?>
@@ -38,7 +37,7 @@ $projectRoot = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 
 
         <a-assets>
-            <a-asset-item id="assetHolder" src="<?php echo $projectRoot ?>assets/<?php echo $mySpot->asset?>"></a-asset-item>
+            <a-asset-item id="assetHolder" src="../assets/<?php echo $mySpot->asset?>"></a-asset-item>
         </a-assets>
 
         <!-- use your gltf model -->

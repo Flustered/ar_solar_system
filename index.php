@@ -29,7 +29,7 @@ $runMode = $spotData->runMode;
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 
   <!-- jQuery Modal -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> 
 
 
@@ -75,7 +75,7 @@ $runMode = $spotData->runMode;
 
   </div>
 
-  <iframe frameborder="0" id="frameHolder" width="100%" height="100%" src="content/holder.php?spot=<?php echo $thisSpot ?>">
+  <iframe frameborder="0" id="frameHolder" width="100%" height="100%" src="<?php echo $projectRoot?>content/holder.php?spot=<?php echo $thisSpot ?>">
   </iframe>
 
 

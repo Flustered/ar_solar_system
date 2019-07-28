@@ -8,10 +8,10 @@
             "distance": "10m (57.91 million km)"
         },
         "asset": "sun/scene.gltf",
-        "rotation": "90 0 0",
+        "rotation": "0 90 90",
         "scale": ".05 .05 .05",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation": "property: object3D.rotation.x; to: 360; dur: 2000; loop: true;"
     },
     "b": {
         "title": "Mercury",
@@ -26,7 +26,7 @@
         },
         "asset": "mercury/scene.gltf",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "scale": ".8 .8 .8",
         "position": "0 0 0",
         "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
@@ -41,11 +41,11 @@
             "id": "d",
             "distance": "10m (261 million kilometers)"
         },
-        "asset": "mercury/scene.gltf",
+        "asset": "venus/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
 
     },
     "d": {
@@ -63,7 +63,7 @@
         "rotation": "0 0 0",
         "scale": "1 1 1",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "e": {
         "title": "Our Moon",
@@ -78,9 +78,9 @@
         },
         "asset": "moon/scene.gltf",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "scale": ".8 .8 .8",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "f": {
         "title": "Mars",
@@ -94,10 +94,10 @@
             "distance": ""
         },
         "asset": "mars/scene.gltf",
-        "rotation": "0 0 0",
+        "rotation": "90 0 0",
         "scale": "1 1 1",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.x; to: 360; dur: 2000; loop: true;"
     },
     "g": {
         "title": "Jupiter",
@@ -111,10 +111,10 @@
             "distance": ""
         },
         "asset": "jupiter/scene.gltf",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "rotation": "90 0 0",
+        "scale": ".4 .4 .4",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "h": {
         "title": "Saturn",
@@ -128,10 +128,10 @@
             "distance": ""
         },
         "asset": "saturn/scene.gltf",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "rotation": "-90 0 0",
+        "scale": ".005 .005 .005",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "i": {
         "title": "Uranus",
@@ -145,10 +145,10 @@
             "distance": ""
         },
         "asset": "uranus/scene.gltf",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "rotation": "-90 0 0",
+        "scale": ".75 .75 .75",
+        "position": "-1 -1 -1",
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "j": {
         "title": "Neptune",
@@ -162,10 +162,10 @@
             "distance": ""
         },
         "asset": "neptune/scene.gltf",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "rotation": "-90 0 0",
+        "scale": ".8 .8 .8",
+        "position": "-2 -2 0",
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "k": {
         "title": "Pluto",
@@ -175,9 +175,9 @@
             "distance": ""
         },
         "asset": "pluto/scene.gltf",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "rotation": "-90 0 0",
+        "scale": ".8 .8 .8",
         "position": "0 0 0",
-        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+        "animation-off": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     }
 }
