@@ -16,11 +16,11 @@ $projectRoot = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 
 <head>
 
-    <script src="../js/params.js"></script>
-    <script src="../js/scripts.js"></script>
 
     <!-- include aframe obviously -->
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+
+
     <!-- include ar.js for a-frame -->
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 

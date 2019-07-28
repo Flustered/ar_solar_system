@@ -1,4 +1,7 @@
 <?php
+
+$projectRoot = $_SERVER['SCRIPT_URL'];
+
 $thisSpot = $_GET["spot"];
 if (!$thisSpot) {
   $thisSpot = "a";
@@ -8,8 +11,6 @@ $spotData = json_decode(file_get_contents("params.json"));
 $mySpot = $spotData->$thisSpot;
 
 $runMode = $spotData->runMode;
-
-$projectRoot = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
 
 
 //echo "<pre>" . print_r($mySpot, 1) . "</pre>";
@@ -26,9 +27,11 @@ $projectRoot = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 
   <link rel="stylesheet" href="styles.css?v=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
   <!-- jQuery Modal -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> 
+
 
   <?php
   
