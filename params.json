@@ -27,7 +27,8 @@
         "asset": "mercury/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "c": {
         "title": "Venus",
@@ -43,7 +44,9 @@
         "asset": "mercury/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
+
     },
     "d": {
         "title": "Earth",
@@ -59,7 +62,8 @@
         "asset": "earth/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "e": {
         "title": "Our Moon",
@@ -75,7 +79,8 @@
         "asset": "moon/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "f": {
         "title": "Mars",
@@ -91,7 +96,8 @@
         "asset": "mars/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "g": {
         "title": "Jupiter",
@@ -107,7 +113,8 @@
         "asset": "jupiter/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "h": {
         "title": "Saturn",
@@ -123,7 +130,8 @@
         "asset": "saturn/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "i": {
         "title": "Uranus",
@@ -139,7 +147,8 @@
         "asset": "uranus/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "j": {
         "title": "Neptune",
@@ -155,7 +164,8 @@
         "asset": "neptune/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     },
     "k": {
         "title": "Pluto",
@@ -167,6 +177,7 @@
         "asset": "pluto/scene.gltf",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "position": "0 0 0"
+        "position": "0 0 0",
+        "animation": "property: object3D.rotation.z; to: 360; dur: 2000; loop: true;"
     }
 }
