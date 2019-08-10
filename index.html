@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>SolAR System</title>
+  <meta name="description" content="SolAR System">
+  <meta name="author" content="fluster.co.uk">
+
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">  </script>
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+  <script src="js/scripts.js"></script>
+
+  <script lang="Javascript">
+
+     $(document).ready(function () {
+
+      document.getElementById("currentSpotName").textContent = returnSpotName();
+      document.getElementById("popSpotName").textContent = returnSpotName();
+      document.getElementById("popSpotDescription").textContent = returnSpotDescription();
+
+      // if ("next" in spots[mySpot]){
+      //   nextlinkID = spots[mySpot].next.id;
+      // } else {
+      //   nextlinkID = Object.keys(spots).length - 1;
+      // }
+
+      // if ("previous" in spots[mySpot]){
+      //   previouslinkID = spots[mySpot].previous.id;
+      // } else {
+      //   previouslinkID = 0;
+      // }
+  
+      // document.getElementById("previousLink").setAttribute('href', '/?spot=' + previouslinkID );
+      // document.getElementById("nextLink").setAttribute('href', '/?spot=' + nextlinkID );
+     });
+  </script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden;' onload="loadIframe()">
+
+  <div class="topOverlay">
+    <span class="title">SolAR System</span>
+    <a href="#ex1" rel="modal:open"><span id="currentSpotName"></span> <img height="15px" src="assets/images/icon-info-grey.png"/></a>
+    
+    <a class='reload' href="#" onClick="location.reload();">Reload</a>
+  
+<!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+    <p>
+      <h2><span id = "popSpotName"></span></h2>
+      <span id = "popSpotDescription"></span>
+    </p>
+   
+  </div>
+  
+  
+  </div>
+
+  <iframe frameborder="0" id="frameHolder" width="100%" height="100%">
+  </iframe>
+
+
+</body>
+
+</html>
