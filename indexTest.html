@@ -23,20 +23,20 @@
       document.getElementById("popSpotName").textContent = returnSpotName();
       document.getElementById("popSpotDescription").textContent = returnSpotDescription();
 
-      // if ("next" in spots[mySpot]){
-      //   nextlinkID = spots[mySpot].next.id;
-      // } else {
-      //   nextlinkID = Object.keys(spots).length - 1;
-      // }
+      if ("next" in spots[mySpot]){
+        nextlinkID = spots[mySpot].next.id;
+      } else {
+        nextlinkID = Object.keys(spots).length - 1;
+      }
 
-      // if ("previous" in spots[mySpot]){
-      //   previouslinkID = spots[mySpot].previous.id;
-      // } else {
-      //   previouslinkID = 0;
-      // }
+      if ("previous" in spots[mySpot]){
+        previouslinkID = spots[mySpot].previous.id;
+      } else {
+        previouslinkID = 0;
+      }
   
-      // document.getElementById("previousLink").setAttribute('href', '/?spot=' + previouslinkID );
-      // document.getElementById("nextLink").setAttribute('href', '/?spot=' + nextlinkID );
+      document.getElementById("previousLink").setAttribute('href', '/?spot=' + previouslinkID );
+      document.getElementById("nextLink").setAttribute('href', '/?spot=' + nextlinkID );
      });
   </script>
 
@@ -47,6 +47,8 @@
   <div class="topOverlay">
     <span class="title">SolAR System</span>
     <a href="#ex1" rel="modal:open"><span id="currentSpotName"></span> <img height="15px" src="/assets/images/icon-info-grey.png"/></a>
+    <a id="previousLink" href="#"><</a>
+    <a id="nextLink" href="#">></a>
     
     <a class='reload' href="#" onClick="location.reload();">Reload</a>
   
