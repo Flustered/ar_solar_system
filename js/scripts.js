@@ -37,7 +37,7 @@ var spots = {
             distance: "10m (57.91 million km)"
         },
         next: {
-            id: 2,
+            id: 3,
             distance: "10m (261 million kilometers)"
         },
         asset: "mercury/scene.gltf",
@@ -48,13 +48,13 @@ var spots = {
     },
     3: {
         title: "Earth",
-        description: "Home",
+        description: "The Earth rotates the sun every 365 days (year) and rotates in its axis every 24 hours (day). Its size is a little more than 12,000 kilometers in diameter. This planet is different form other planets as it maintains life on its surface. It has a moon.",
         previous: {
             id: 2,
             distance: ""
         },
         next: {
-            id: 4,
+            id: 5,
             distance: ""
         },
         asset: "earth/scene.gltf",
@@ -82,9 +82,9 @@ var spots = {
     },
     5: {
         title: "Mars",
-        description: "",
+        description: "Mars takes 687 days to revolve around the sun. Its surface is covered with craters, volcanoes, and large canyons and it has a very cold atmosphere. It has two moons",
         previous: {
-            id: 4,
+            id: 3,
             distance: ""
         },
         next: {
@@ -99,7 +99,7 @@ var spots = {
     },
     6: {
         title: "Jupiter",
-        description: "",
+        description: "Jupiter is the largest planet of the solar system as a diameter of 142,980 kilometers. It orbits the sun every 12 years.",
         previous: {
             id: 5,
             distance: ""
@@ -116,7 +116,7 @@ var spots = {
     },
     7: {
         title: "Saturn",
-        description: "",
+        description: "Saturn is a large planet as 120,536 kilometers. It orbits the sun in 12 years. It is well-known for its system of three rings, it has also 47 moons.",
         previous: {
             id: 6,
             distance: ""
@@ -133,7 +133,7 @@ var spots = {
     },
     8: {
         title: "Uranus",
-        description: "",
+        description: "Uranus rotates the sun in 84 years, its size is 51,118 kilometers in diameter. It is surrounded by a system of nine rings.",
         previous: {
             id: 7,
             distance: ""
@@ -150,7 +150,7 @@ var spots = {
     },
     9: {
         title: "Neptune",
-        description: "",
+        description: "Neptune's size is 49,500 kilometers in diameter. It orbits the sun every 165 years.",
         previous: {
             id: 8,
             distance: ""
@@ -167,7 +167,7 @@ var spots = {
     },
     10: {
         title: "Pluto",
-        description: "",
+        description: "Once the ninth planet from the sun, Pluto is unlike other planets in many respects. It is smaller than Earth's moon. Its orbit carries it inside the orbit of Neptune and then way out beyond that orbit. From 1979 until early 1999, Pluto had actually been the eighth planet from the sun.",
         previous: {
             id: 9,
             distance: ""
