@@ -1,7 +1,7 @@
 var spots = {
     0: {
         title: "The Sun",
-        description: "This is the Sun.  It's Big.",
+        description: "The sun lies at the heart of the solar system, where it is by far the largest object. It holds 99.8 percent of the solar system's mass and is roughly 109 times the diameter of the Earth — about one million Earths could fit inside the sun. The sun is one of more than 100 billion stars in the Milky Way.",
         next: {
             id: 1,
             distance: "10m (57.91 million km)"
