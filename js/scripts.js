@@ -188,7 +188,7 @@ if (!mySpot) {
 }
 
 function returnIframeSource() {
-    return "/content/" + spots[mySpot].runfile;
+    return "content/" + spots[mySpot].runfile;
 }
 
 function returnSpotName() {
