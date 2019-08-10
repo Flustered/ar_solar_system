@@ -28,6 +28,9 @@ $mySpot = $spotData->$thisSpot;
 
     </script>
 
+
+
+
 </head>
 
 <body style='margin : 0px; overflow: hidden;'>
@@ -54,7 +57,8 @@ $mySpot = $spotData->$thisSpot;
 
 
         <!-- define a camera which will move according to the marker position -->
-        <a-marker-camera preset='hiro'></a-marker-camera>
+        <a-marker-camera preset='hiro' drag-rotate-component></a-marker-camera>
+
     </a-scene>
 
 
