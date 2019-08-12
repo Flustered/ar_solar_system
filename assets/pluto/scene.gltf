@@ -3,50 +3,69 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 16422,
+      "count": 11474,
       "max": [
-        2.0000040531158447,
-        0.075631000101566315,
-        1.8306260108947754
+        99.978065490722656,
+        99.956138610839844,
+        100
       ],
       "min": [
-        1.9999999949504854e-06,
-        -1.9243700504302979,
-        -0.1693740040063858
+        -99.978065490722656,
+        -99.956138610839844,
+        -100
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 197064,
+      "byteOffset": 137688,
       "componentType": 5126,
-      "count": 16422,
+      "count": 11474,
       "max": [
-        1,
-        1,
-        1
+        0.99972599744796753,
+        0.99995541572570801,
+        0.99978065490722656
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -0.9999006986618042,
+        -0.99995541572570801,
+        -0.99978065490722656
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 16422,
+      "count": 11474,
       "max": [
         1,
-        1,
-        0.012281846255064011,
+        0.99978077411651611,
+        0.0064263371750712395,
         1
       ],
       "min": [
         -1,
-        -1,
-        -0.012297357432544231,
+        -0.99999672174453735,
+        -0.0066542266868054867,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 183584,
+      "componentType": 5126,
+      "count": 11474,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1,
         1
       ],
       "type": "VEC4"
@@ -54,23 +73,23 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 16422,
+      "count": 11474,
       "max": [
-        1.2262790203094482,
-        0.99765098094940186
+        1,
+        1
       ],
       "min": [
-        -0.0034970000851899385,
-        -0.0026110000908374786
+        0,
+        0
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 97536,
+      "count": 66600,
       "max": [
-        16421
+        11473
       ],
       "min": [
         0
@@ -80,42 +99,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "kongle (https://sketchfab.com/minecraftnorge)",
-      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
-      "source": "https://sketchfab.com/models/0840325e536d47bdb6ed4b867d55b5c1",
-      "title": "Pluto"
+      "author": "unaipl2003 (https://sketchfab.com/unaipl2003)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/b455b83fd25f46309a3d8711033e08a1",
+      "title": "Pluton v1.1"
     },
-    "generator": "Sketchfab-3.20.7",
+    "generator": "Sketchfab-3.47.8",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 390144,
+      "byteLength": 266400,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 131376,
-      "byteOffset": 390144,
+      "byteLength": 91792,
+      "byteOffset": 266400,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 394128,
-      "byteOffset": 521520,
+      "byteLength": 275376,
+      "byteOffset": 358192,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 262752,
-      "byteOffset": 915648,
+      "byteLength": 367168,
+      "byteOffset": 633568,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,13 +142,13 @@
   ],
   "buffers": [
     {
-      "byteLength": 1178400,
+      "byteLength": 1000736,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/moon_baseColor.jpeg"
+      "uri": "textures/material_baseColor.jpeg"
     }
   ],
   "materials": [
@@ -140,7 +159,7 @@
         0,
         0
       ],
-      "name": "moon",
+      "name": "material",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -162,12 +181,13 @@
       "primitives": [
         {
           "attributes": {
+            "COLOR_0": 3,
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 4
           },
-          "indices": 4,
+          "indices": 5,
           "material": 0,
           "mode": 4
         }
@@ -191,13 +211,31 @@
       "children": [
         2
       ],
+      "matrix": [
+        -0.75245916843414307,
+        0.65863889455795288,
+        0,
+        0,
+        -0.65863889455795288,
+        -0.75245916843414307,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.00017888240108732134,
+        -9.0633002400863916e-06,
+        0,
+        1
+      ],
       "name": "RootNode (model correction matrix)"
     },
     {
       "children": [
         3
       ],
-      "name": "pluto.obj.cleaner"
+      "name": "Geode"
     },
     {
       "mesh": 0,
